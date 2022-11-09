@@ -1,16 +1,16 @@
 ![Build Status](https://github.com/broxus/ledger-app-everscale/actions/workflows/ci.yml/badge.svg?branch=master)
 
-# Everscale app for Ledger Wallet
+# Venom app for Ledger Wallet
 
 ## Overview
 
-This app adds support for the Everscale tokens to Ledger hardware wallets.
+This app adds support for the Venom tokens to Ledger hardware wallets.
 
 Current Features:
 - Pubkey queries
 - Address queries
 - Sign transaction hash
-- Parse, display and sign Everscale transaction 
+- Parse, display and sign Venom transaction 
 
 ## Prerequisites
 ### For building the app
@@ -58,7 +58,7 @@ docker build -t ledger-app-builder:latest .
 
 ## Example of Ledger wallet functionality
 
-**Install Rust to compile client to interact with Everscale Ledger app**
+**Install Rust to compile client to interact with Venom Ledger app**
 ```bash
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
@@ -69,7 +69,7 @@ cargo build --release --manifest-path client/Cargo.toml && \
 cd ./client/target/release
 ```
 
-**List of Everscale wallets**
+**List of Venom wallets**
 ```bash
 ./client get-wallets
 ```
