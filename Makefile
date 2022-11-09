@@ -33,7 +33,7 @@ APP_LOAD_PARAMS += $(COMMON_LOAD_PARAMS)
 APP_LOAD_PARAMS += --tlvraw 9F:01
 DEFINES += HAVE_PENDING_REVIEW_SCREEN
 
-APPNAME      = "Everscale"
+APPNAME      = "Venom"
 APPVERSION_M = 1
 APPVERSION_N = 0
 APPVERSION_P = 4
@@ -149,4 +149,4 @@ include $(BOLOS_SDK)/Makefile.rules
 dep/%.d: %.c Makefile
 
 listvariants:
-	@echo VARIANTS COIN Everscale
+	@echo VARIANTS COIN VENOM
