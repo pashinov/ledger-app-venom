@@ -1,15 +1,15 @@
-# Everscale application : Common Technical Specifications
+# Venom application : Common Technical Specifications
 
 ## About
 
-This application describes the APDU messages interface to communicate with the Everscale application.
+This application describes the APDU messages interface to communicate with the Venom application.
 
 The application covers the following functionalities :
 
 - Retrieve a public key given an account number
 - Retrieve an address given an account number
-- Sign Everscale message hash
-- Sign Everscale BOC transaction
+- Sign Venom message hash
+- Sign Venom BOC transaction
 
 The application interface can be accessed over HID or BLE
 
