@@ -1,4 +1,4 @@
-![Build Status](https://github.com/broxus/ledger-app-everscale/actions/workflows/ci.yml/badge.svg?branch=master)
+![Build Status](https://github.com/venom-blockchain/ledger-app-venom/actions/workflows/ci.yml/badge.svg?branch=master)
 
 # Venom app for Ledger Wallet
 
